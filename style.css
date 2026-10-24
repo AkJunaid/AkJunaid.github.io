@@ -265,3 +265,15 @@ nav ul{margin-left:auto}
   .hero{padding:110px 0 56px}
   .theme{margin-left:auto}
 }
+
+/* capstone figure */
+.capstone{display:grid;grid-template-columns:minmax(220px,340px) 1fr;gap:34px;align-items:center;margin-top:24px;padding:20px;background:var(--panel);border:1px solid var(--line);border-radius:22px;backdrop-filter:blur(8px)}
+.capstone img{width:100%;height:auto;border-radius:14px;display:block;border:1px solid var(--line)}
+.capstone .kicker{margin-bottom:8px}
+.capstone h4{font-family:var(--display);font-size:clamp(20px,2.6vw,26px);line-height:1.2;letter-spacing:-.02em;margin-bottom:12px}
+.capstone p{color:var(--soft);max-width:520px}
+.capstone em{color:var(--text);font-style:normal;font-weight:600}
+.capstone .link{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-weight:600;font-size:14px;color:var(--accent)}
+.capstone .link svg{width:16px;height:16px;fill:currentColor}
+.capstone .link:hover{text-decoration:underline}
+@media(max-width:700px){.capstone{grid-template-columns:1fr;gap:20px}}
